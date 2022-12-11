@@ -26,12 +26,12 @@ main{
     justify-content: space-evenly;
     width:35%;
   }
+  /*div内で改行できるように*/
+  .mb-3 div{
+    word-break: break-all;
+  }
   /* placeholderの変更ができない */
   /* ::placeholder{
     color:green;
     opacity:0;
   }  */
-  .textarea{
-    text-align:start;
-  }
-  
